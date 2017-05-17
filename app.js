@@ -7,6 +7,8 @@ import * as variables from './variables'
 // Add our stylesheets for the demo.
 require('./css/application.css.scss');
 
+const MathyConsole = require('mathy-console');
+
 ReactDOM.render(
   <FormBuilder.ReactFormBuilder variables={variables} />,
   document.getElementById('form-builder')
